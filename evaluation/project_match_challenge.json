@@ -1,0 +1,52 @@
+[
+  {
+    "id": "c01",
+    "query": "Develop secure enterprise services with persistent data storage, access controls, business workflows and containerized deployment.",
+    "relevant_ids": ["document_review", "medical_system"]
+  },
+  {
+    "id": "c02",
+    "query": "Build an end-to-end web application covering browser-based user interfaces, server-side APIs, relational storage and user login.",
+    "relevant_ids": ["medical_system", "document_review"]
+  },
+  {
+    "id": "c03",
+    "query": "Evaluate unreliable AI-generated outputs, detect invalid results and systematically analyze model failure modes.",
+    "relevant_ids": ["llm_hardware", "maritime_asr"]
+  },
+  {
+    "id": "c04",
+    "query": "Adapt a pretrained model to specialized noisy data while measuring prediction quality and investigating unstable generation behavior.",
+    "relevant_ids": ["maritime_asr"]
+  },
+  {
+    "id": "c05",
+    "query": "Use surrogate models to reduce the number of expensive experimental evaluations required when searching a parameter space.",
+    "relevant_ids": ["ares_optimization"]
+  },
+  {
+    "id": "c06",
+    "query": "Develop engineering software that allows researchers to interactively inspect, filter, visualize and export numerical measurements.",
+    "relevant_ids": ["scientific_gui"]
+  },
+  {
+    "id": "c07",
+    "query": "Design automated quality gates for generated technical artifacts and reject outputs that are syntactically valid but semantically ineffective.",
+    "relevant_ids": ["llm_hardware"]
+  },
+  {
+    "id": "c08",
+    "query": "Investigate a machine learning system whose outputs degrade after adaptation and identify the cause through controlled experiments.",
+    "relevant_ids": ["maritime_asr", "llm_hardware"]
+  },
+  {
+    "id": "c09",
+    "query": "Implement authorization, user-specific data visibility and controlled state transitions in a database-backed business application.",
+    "relevant_ids": ["document_review"]
+  },
+  {
+    "id": "c10",
+    "query": "Analyze computational experiments in Python and communicate algorithm behavior through quantitative plots and convergence analysis.",
+    "relevant_ids": ["ares_optimization", "scientific_gui"]
+  }
+]

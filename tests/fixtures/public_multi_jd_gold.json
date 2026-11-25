@@ -1,0 +1,397 @@
+{
+  "schema_version": 1,
+  "provenance": "Redacted test projection. The original frozen benchmark gold is retained with the local candidate evidence.",
+  "cases": [
+    {
+      "id": "ai_ml",
+      "role": "AI / ML Engineer",
+      "full_cv": false,
+      "jd": "AI / ML Engineer, Speech Models. Build Python workflows for speech recognition evaluation. Use PyTorch and LoRA fine-tuning for domain adaptation. Track word error rate and investigate recognition errors. Experience serving PyTorch models with NVIDIA Triton is desirable.",
+      "core_sources": [
+        "maritime_asr"
+      ],
+      "plausible_sources": [
+        "maritime_asr",
+        "ares_optimization",
+        "university_llm_research",
+        "industry_internship"
+      ],
+      "requirements": [
+        {
+          "id": "pytorch",
+          "requirement": "PyTorch",
+          "aliases": [
+            "PyTorch"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "maritime_asr_skills"
+          ],
+          "rationale": "Explicit verified skill."
+        },
+        {
+          "id": "lora",
+          "requirement": "LoRA fine-tuning",
+          "aliases": [
+            "LoRA",
+            "parameter efficient fine tuning"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "maritime_asr_evidence_1",
+            "maritime_asr_skills"
+          ],
+          "rationale": "Verified LoRA adaptation."
+        },
+        {
+          "id": "wer",
+          "requirement": "Word error rate evaluation",
+          "aliases": [
+            "word error rate",
+            "WER"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "maritime_asr_evidence_0",
+            "maritime_asr_evidence_2",
+            "maritime_asr_evidence_3"
+          ],
+          "rationale": "Verified WER pipeline and error evaluation."
+        },
+        {
+          "id": "triton",
+          "requirement": "NVIDIA Triton model serving",
+          "aliases": [
+            "NVIDIA Triton",
+            "Triton"
+          ],
+          "status": "GAP",
+          "evidence_ids": [],
+          "rationale": "The KB does not document Triton or model serving."
+        }
+      ]
+    },
+    {
+      "id": "applied_llm",
+      "role": "LLM / RAG / Applied AI",
+      "full_cv": true,
+      "jd": "Applied AI Engineer, Retrieval. Build dense retrieval with Qdrant. Add Cross-Encoder reranking and evaluate retrieval quality. Instrument production LLM services with OpenTelemetry. Familiarity with monitoring a deployed LLM application is a plus.",
+      "core_sources": [
+        "evidence_grounded_job_application_agent"
+      ],
+      "plausible_sources": [
+        "evidence_grounded_job_application_agent",
+        "university_llm_research",
+        "maritime_asr",
+        "industry_internship"
+      ],
+      "requirements": [
+        {
+          "id": "qdrant",
+          "requirement": "Qdrant dense retrieval",
+          "aliases": [
+            "Qdrant"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "evidence_grounded_job_application_agent_evidence_0",
+            "evidence_grounded_job_application_agent_skills"
+          ],
+          "rationale": "Verified implementation and explicit skill."
+        },
+        {
+          "id": "reranker",
+          "requirement": "Cross-Encoder reranking",
+          "aliases": [
+            "cross encoder reranking",
+            "cross encoder"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "evidence_grounded_job_application_agent_evidence_0",
+            "evidence_grounded_job_application_agent_evidence_1",
+            "evidence_grounded_job_application_agent_skills"
+          ],
+          "rationale": "Verified reranking and measured retrieval."
+        },
+        {
+          "id": "evaluation",
+          "requirement": "Retrieval quality evaluation",
+          "aliases": [
+            "retrieval quality",
+            "retrieval evaluation",
+            "evaluate retrieval"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "evidence_grounded_job_application_agent_evidence_1",
+            "evidence_grounded_job_application_agent_skills"
+          ],
+          "rationale": "Verified challenge-set evaluation."
+        },
+        {
+          "id": "otel",
+          "requirement": "OpenTelemetry instrumentation",
+          "aliases": [
+            "OpenTelemetry",
+            "Open Telemetry"
+          ],
+          "status": "GAP",
+          "evidence_ids": [],
+          "rationale": "No OpenTelemetry evidence."
+        },
+        {
+          "id": "monitoring",
+          "requirement": "Monitoring deployed LLM applications",
+          "aliases": [
+            "monitoring a deployed llm application",
+            "deployed llm application",
+            "llm application monitoring"
+          ],
+          "status": null,
+          "evidence_ids": [],
+          "rationale": "Monitoring scope is unspecified. Offline evaluation is documented, but serving telemetry is not."
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "role": "Backend Software Engineering",
+      "full_cv": false,
+      "jd": "Junior Backend Software Engineer. Implement Java services with Spring Boot. Design REST APIs for workflow management. Maintain PostgreSQL schema migrations with Flyway. Exposure to operating Kafka event streams is desirable.",
+      "core_sources": [
+        "document_review"
+      ],
+      "plausible_sources": [
+        "document_review",
+        "medical_system",
+        "industry_internship"
+      ],
+      "requirements": [
+        {
+          "id": "spring",
+          "requirement": "Spring Boot backend development",
+          "aliases": [
+            "Spring Boot"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "document_review_skills",
+            "medical_system_evidence_0",
+            "medical_system_skills"
+          ],
+          "rationale": "Direct backend implementation and explicit skills."
+        },
+        {
+          "id": "api",
+          "requirement": "REST API design",
+          "aliases": [
+            "REST APIs",
+            "REST API",
+            "RESTful APIs",
+            "RESTful API"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "document_review_evidence_0",
+            "document_review_skills",
+            "medical_system_skills"
+          ],
+          "rationale": "Verified REST API design and corroborating skills."
+        },
+        {
+          "id": "flyway",
+          "requirement": "Flyway schema migrations",
+          "aliases": [
+            "Flyway"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "document_review_evidence_4",
+            "document_review_skills"
+          ],
+          "rationale": "Verified PostgreSQL migrations with Flyway."
+        },
+        {
+          "id": "kafka",
+          "requirement": "Operating Kafka event streams",
+          "aliases": [
+            "Kafka"
+          ],
+          "status": "GAP",
+          "evidence_ids": [],
+          "rationale": "The KB does not document Kafka or event-stream operations."
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "role": "Data / Analytics Engineering",
+      "full_cv": false,
+      "jd": "Junior Analytics Engineer. Use NumPy for numerical data processing and Matplotlib for exploratory plots. Work with PostgreSQL data models for analytics reporting. Help maintain Airflow orchestration and dbt transformations.",
+      "core_sources": [
+        "scientific_gui"
+      ],
+      "plausible_sources": [
+        "scientific_gui",
+        "ares_optimization",
+        "document_review",
+        "industry_internship"
+      ],
+      "requirements": [
+        {
+          "id": "numpy",
+          "requirement": "NumPy numerical data processing",
+          "aliases": [
+            "NumPy",
+            "numerical data processing"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "scientific_gui_evidence_2",
+            "scientific_gui_skills",
+            "ares_optimization_skills"
+          ],
+          "rationale": "Direct NumPy processing and secondary tool evidence."
+        },
+        {
+          "id": "plots",
+          "requirement": "Matplotlib exploratory plots",
+          "aliases": [
+            "Matplotlib"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "scientific_gui_evidence_1",
+            "scientific_gui_evidence_3",
+            "scientific_gui_skills",
+            "ares_optimization_skills"
+          ],
+          "rationale": "Verified visualization and interactive data exploration."
+        },
+        {
+          "id": "analytics_models",
+          "requirement": "PostgreSQL data models for analytics reporting",
+          "aliases": [
+            "PostgreSQL data models",
+            "analytics reporting",
+            "data modelling for analytics"
+          ],
+          "status": "PARTIAL",
+          "evidence_ids": [
+            "document_review_evidence_4",
+            "document_review_skills"
+          ],
+          "rationale": "Verified transactional PostgreSQL persistence and migration without evidence of analytics reporting models."
+        },
+        {
+          "id": "airflow",
+          "requirement": "Airflow orchestration",
+          "aliases": [
+            "Airflow"
+          ],
+          "status": "GAP",
+          "evidence_ids": [],
+          "rationale": "The KB does not document Apache Airflow."
+        },
+        {
+          "id": "dbt",
+          "requirement": "dbt transformations",
+          "aliases": [
+            "dbt"
+          ],
+          "status": "GAP",
+          "evidence_ids": [],
+          "rationale": "The KB does not document dbt."
+        }
+      ]
+    },
+    {
+      "id": "qa",
+      "role": "QA / Validation / Software Testing",
+      "full_cv": true,
+      "jd": "Junior Software Validation Engineer. Build automated validation checks and analyze failures. Perform functional testing of Java application workflows. Reproduce defects and document findings for developers. Experience with Selenium browser automation is desirable.",
+      "core_sources": [
+        "university_llm_research"
+      ],
+      "plausible_sources": [
+        "university_llm_research",
+        "evidence_grounded_job_application_agent",
+        "maritime_asr",
+        "industry_internship"
+      ],
+      "requirements": [
+        {
+          "id": "checks",
+          "requirement": "Automated validation checks",
+          "aliases": [
+            "automated validation",
+            "validation checks"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "university_llm_research_evidence_1",
+            "university_llm_research_skills",
+            "evidence_grounded_job_application_agent_evidence_3"
+          ],
+          "rationale": "Verified automated validation in research and the CV workflow."
+        },
+        {
+          "id": "failures",
+          "requirement": "Failure analysis",
+          "aliases": [
+            "analyze failures",
+            "failure analysis"
+          ],
+          "status": "SUPPORTED",
+          "evidence_ids": [
+            "university_llm_research_evidence_2",
+            "university_llm_research_evidence_3",
+            "maritime_asr_evidence_2"
+          ],
+          "rationale": "Verified analysis of failed model and validation outputs."
+        },
+        {
+          "id": "functional",
+          "requirement": "Functional testing of Java application workflows",
+          "aliases": [
+            "functional testing",
+            "testing of java application workflows"
+          ],
+          "status": "PARTIAL",
+          "evidence_ids": [
+            "industry_internship_evidence_0",
+            "industry_internship_skills"
+          ],
+          "rationale": "Direct legacy CV evidence is provisional."
+        },
+        {
+          "id": "defects",
+          "requirement": "Defect reproduction and documentation",
+          "aliases": [
+            "reproduce defects",
+            "defect reproduction",
+            "defect documentation",
+            "document findings"
+          ],
+          "status": "PARTIAL",
+          "evidence_ids": [
+            "industry_internship_evidence_2",
+            "industry_internship_evidence_3"
+          ],
+          "rationale": "Direct defect reproduction and collaboration evidence is provisional."
+        },
+        {
+          "id": "selenium",
+          "requirement": "Selenium browser automation",
+          "aliases": [
+            "Selenium"
+          ],
+          "status": "GAP",
+          "evidence_ids": [],
+          "rationale": "No Selenium evidence in the KB."
+        }
+      ]
+    }
+  ]
+}

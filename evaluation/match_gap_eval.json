@@ -1,0 +1,159 @@
+[
+  {
+    "id": "mg_01",
+    "requirement": "Python",
+    "expected_status": "SUPPORTED",
+    "evidence_ids": [
+      "llm_hardware_skills",
+      "document_review_evidence_3",
+      "ares_optimization_evidence_2"
+    ],
+    "acceptable_evidence_ids": [
+      "llm_hardware_skills"
+    ]
+  },
+  {
+    "id": "mg_02",
+    "requirement": "Docker",
+    "expected_status": "SUPPORTED",
+    "evidence_ids": [
+      "document_review_evidence_3",
+      "medical_system_evidence_1",
+      "maritime_asr_evidence_2"
+    ],
+    "acceptable_evidence_ids": [
+      "document_review_evidence_3"
+    ]
+  },
+  {
+    "id": "mg_03",
+    "requirement": "LoRA-based parameter-efficient fine-tuning",
+    "expected_status": "SUPPORTED",
+    "evidence_ids": [
+      "maritime_asr_evidence_1",
+      "llm_hardware_evidence_1",
+      "scientific_gui_evidence_2"
+    ],
+    "acceptable_evidence_ids": [
+      "maritime_asr_evidence_1"
+    ]
+  },
+  {
+    "id": "mg_04",
+    "requirement": "role-based access control",
+    "expected_status": "SUPPORTED",
+    "evidence_ids": [
+      "medical_system_evidence_2",
+      "document_review_evidence_1",
+      "scientific_gui_summary"
+    ],
+    "acceptable_evidence_ids": [
+      "medical_system_evidence_2",
+      "document_review_evidence_1"
+    ]
+  },
+  {
+    "id": "mg_05",
+    "requirement": "fine-tuning large language models",
+    "expected_status": "PARTIAL",
+    "evidence_ids": [
+      "maritime_asr_evidence_1",
+      "llm_hardware_summary",
+      "llm_hardware_skills"
+    ],
+    "acceptable_evidence_ids": [
+      "maritime_asr_evidence_1",
+      "llm_hardware_summary",
+      "llm_hardware_skills"
+    ]
+  },
+  {
+    "id": "mg_06",
+    "requirement": "production deployment of machine learning models",
+    "expected_status": "PARTIAL",
+    "evidence_ids": [
+      "maritime_asr_summary",
+      "document_review_evidence_3",
+      "maritime_asr_skills"
+    ],
+    "acceptable_evidence_ids": [
+      "maritime_asr_summary",
+      "document_review_evidence_3",
+      "maritime_asr_skills"
+    ]
+  },
+  {
+    "id": "mg_07",
+    "requirement": "REST API development using Python",
+    "expected_status": "PARTIAL",
+    "evidence_ids": [
+      "document_review_evidence_0",
+      "document_review_skills",
+      "llm_hardware_skills"
+    ],
+    "acceptable_evidence_ids": [
+      "document_review_evidence_0",
+      "document_review_skills",
+      "llm_hardware_skills"
+    ]
+  },
+  {
+    "id": "mg_08",
+    "requirement": "security testing of software applications",
+    "expected_status": "PARTIAL",
+    "evidence_ids": [
+      "llm_hardware_evidence_2",
+      "document_review_evidence_1",
+      "medical_system_evidence_2"
+    ],
+    "acceptable_evidence_ids": [
+      "llm_hardware_evidence_2",
+      "document_review_evidence_1",
+      "medical_system_evidence_2"
+    ]
+  },
+  {
+    "id": "mg_09",
+    "requirement": "RAG",
+    "expected_status": "GAP",
+    "evidence_ids": [
+      "llm_hardware_summary",
+      "llm_hardware_evidence_0",
+      "maritime_asr_skills"
+    ],
+    "acceptable_evidence_ids": []
+  },
+  {
+    "id": "mg_10",
+    "requirement": "LangGraph",
+    "expected_status": "GAP",
+    "evidence_ids": [
+      "llm_hardware_summary",
+      "llm_hardware_evidence_1",
+      "maritime_asr_summary"
+    ],
+    "acceptable_evidence_ids": []
+  },
+  {
+    "id": "mg_11",
+    "requirement": "Apache Kafka",
+    "expected_status": "GAP",
+    "evidence_ids": [
+      "document_review_evidence_0",
+      "document_review_evidence_3",
+      "medical_system_evidence_3"
+    ],
+    "acceptable_evidence_ids": []
+  },
+  {
+    "id": "mg_12",
+    "requirement": "German language proficiency at B2 level",
+    "expected_status": "GAP",
+    "evidence_ids": [
+      "document_review_summary",
+      "llm_hardware_summary",
+      "maritime_asr_summary"
+    ],
+    "acceptable_evidence_ids": []
+  }
+]

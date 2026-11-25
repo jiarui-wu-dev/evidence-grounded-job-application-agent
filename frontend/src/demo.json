@@ -1,0 +1,729 @@
+{
+  "jd_text": "Applied AI Engineer, Retrieval. Build dense retrieval with Qdrant. Add Cross-Encoder reranking and evaluate retrieval quality. Instrument production LLM services with OpenTelemetry. Familiarity with monitoring a deployed LLM application is a plus.",
+  "run": {
+    "run_id": "saved-applied-llm",
+    "status": "completed",
+    "final_status": "grounded",
+    "error_code": null,
+    "created_at": "",
+    "updated_at": ""
+  },
+  "trace": {
+    "run_id": "saved-applied-llm",
+    "events": [
+      {
+        "created_at": null,
+        "next_nodes": [
+          "analyze_jd"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "build_queries"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "retrieve_evidence"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "analyze_match_gap"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "build_strategy"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "expand_sources"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "tailor_cv"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "validate_cv"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {},
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "revise_cv"
+        ],
+        "revision_round": 0,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {
+          "SUPPORTED": 6,
+          "OVERSTATED": 3,
+          "UNSUPPORTED": 0
+        },
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "validate_cv"
+        ],
+        "revision_round": 1,
+        "pending_revalidation_claim_ids": [
+          "profile",
+          "experience:industry_internship:bullet_1",
+          "experience:industry_internship:bullet_2"
+        ],
+        "validation_counts": {
+          "SUPPORTED": 6,
+          "OVERSTATED": 3,
+          "UNSUPPORTED": 0
+        },
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [
+          "finalize"
+        ],
+        "revision_round": 1,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {
+          "SUPPORTED": 9,
+          "OVERSTATED": 0,
+          "UNSUPPORTED": 0
+        },
+        "final_status": null
+      },
+      {
+        "created_at": null,
+        "next_nodes": [],
+        "revision_round": 1,
+        "pending_revalidation_claim_ids": null,
+        "validation_counts": {
+          "SUPPORTED": 9,
+          "OVERSTATED": 0,
+          "UNSUPPORTED": 0
+        },
+        "final_status": "grounded"
+      }
+    ]
+  },
+  "evidence": {
+    "requirements": [
+      {
+        "requirement_id": "must_1",
+        "requirement": "dense retrieval",
+        "status": "SUPPORTED",
+        "explanation": "Implemented dense vector search with Qdrant as part of hybrid retrieval.",
+        "review_status": null,
+        "evidence_ids": [
+          "evidence_grounded_job_application_agent_evidence_0"
+        ]
+      },
+      {
+        "requirement_id": "must_2",
+        "requirement": "Qdrant",
+        "status": "SUPPORTED",
+        "explanation": "Project used Qdrant for dense vector search.",
+        "review_status": null,
+        "evidence_ids": [
+          "evidence_grounded_job_application_agent_evidence_0"
+        ]
+      },
+      {
+        "requirement_id": "must_3",
+        "requirement": "Cross-Encoder reranking",
+        "status": "SUPPORTED",
+        "explanation": "Cross-Encoder reranking was implemented in the hybrid retrieval pipeline.",
+        "review_status": null,
+        "evidence_ids": [
+          "evidence_grounded_job_application_agent_evidence_0"
+        ]
+      },
+      {
+        "requirement_id": "must_4",
+        "requirement": "retrieval quality evaluation",
+        "status": "SUPPORTED",
+        "explanation": "Retrieval evaluation performed on a 24-query challenge set with metrics Hit@1, nDCG@5, Recall@5.",
+        "review_status": null,
+        "evidence_ids": [
+          "evidence_grounded_job_application_agent_evidence_1"
+        ]
+      },
+      {
+        "requirement_id": "resp_1",
+        "requirement": "Build dense retrieval with Qdrant",
+        "status": "SUPPORTED",
+        "explanation": "Built dense retrieval using Qdrant as part of hybrid retrieval.",
+        "review_status": null,
+        "evidence_ids": [
+          "evidence_grounded_job_application_agent_evidence_0"
+        ]
+      },
+      {
+        "requirement_id": "resp_2",
+        "requirement": "Add Cross-Encoder reranking",
+        "status": "SUPPORTED",
+        "explanation": "Added Cross-Encoder reranking to the retrieval pipeline.",
+        "review_status": null,
+        "evidence_ids": [
+          "evidence_grounded_job_application_agent_evidence_0"
+        ]
+      },
+      {
+        "requirement_id": "resp_3",
+        "requirement": "Evaluate retrieval quality",
+        "status": "SUPPORTED",
+        "explanation": "Evaluated retrieval quality using weighted metrics on a query set.",
+        "review_status": null,
+        "evidence_ids": [
+          "evidence_grounded_job_application_agent_evidence_1"
+        ]
+      },
+      {
+        "requirement_id": "resp_4",
+        "requirement": "Instrument production LLM services with OpenTelemetry",
+        "status": "GAP",
+        "explanation": "No evidence of OpenTelemetry instrumentation for production LLM services.",
+        "review_status": null,
+        "evidence_ids": []
+      },
+      {
+        "requirement_id": "nice_1",
+        "requirement": "monitoring deployed LLM applications",
+        "status": "GAP",
+        "explanation": "No evidence of monitoring deployed LLM applications.",
+        "review_status": null,
+        "evidence_ids": []
+      }
+    ],
+    "evidence": [
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_skills",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Skills: Python, RAG, LangGraph, Qdrant, BM25, Dense Retrieval, Reciprocal Rank Fusion, Cross-Encoder Reranking, Large Language Models, Prompt Engineering, Retrieval Evaluation, LLM Evaluation, Evidence Validation, SQLite",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_evidence_0",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Implemented hybrid retrieval over candidate evidence using BM25 and dense vector search with Qdrant, Reciprocal Rank Fusion, and Cross-Encoder reranking.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_evidence_1",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Evaluated retrieval on a 24-query challenge set; weighted RRF achieved Hit@1 of 0.667 and nDCG@5 of 0.813, while union retrieval with Cross-Encoder reranking reached Recall@5 of 0.958.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_summary",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Built an evidence-grounded AI application agent that analyzes job descriptions, retrieves candidate evidence with hybrid search and reranking, maps requirements to supported experience, generates tailored CV content, and validates generated claims before final output.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "university_llm_research_skills",
+        "source_id": "university_llm_research",
+        "source_type": "research_experience",
+        "text": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs. Research university. Embedded Systems Lab. Skills: Python, Large Language Models, LLM Evaluation, Automated Validation, Failure Analysis, Verilog, Yosys, Slang, CWE, Hardware Security",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "university_llm_research_evidence_3",
+        "source_id": "university_llm_research",
+        "source_type": "research_experience",
+        "text": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs. Research university. Embedded Systems Lab. Used systematic failure analysis and validation results to refine the generation workflow.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "university_llm_research_evidence_0",
+        "source_id": "university_llm_research",
+        "source_type": "research_experience",
+        "text": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs. Research university. Embedded Systems Lab. Designed an LLM-assisted code-generation workflow using structured weakness specifications and baseline RTL designs.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "university_llm_research_summary",
+        "source_id": "university_llm_research",
+        "source_type": "research_experience",
+        "text": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs. Research university. Embedded Systems Lab. Conducted supervised research on an LLM-assisted workflow for generating and systematically validating security-relevant weaknesses in Verilog RTL designs.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "maritime_asr_evidence_3",
+        "source_id": "maritime_asr",
+        "source_type": "project",
+        "text": "Maritime ASR Evaluation & LoRA Domain Adaptation. Reduced catastrophic decoding failures from 21/162 to 2/162.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "scientific_gui_evidence_0",
+        "source_id": "scientific_gui",
+        "source_type": "project",
+        "text": "Experimental Scientific Data Visualization GUI. Developed a modular desktop GUI using PyQt.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_evidence_2",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Built a JD-analysis and requirement-mapping workflow that classifies candidate evidence as supported, partially supported, or gap before CV generation.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_evidence_3",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Implemented evidence-grounded CV generation with claim-level evidence IDs, followed by an Evidence Validator that flags supported, overstated, and unsupported claims.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_evidence_4",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Implemented a targeted CV Reviser that rewrites only flagged claims while preserving evidence attribution and avoiding unsupported causal, purpose, or impact statements.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_evidence_5",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Used LangGraph to orchestrate the stateful application workflow with conditional validation-revision routing, bounded revision rounds, and human-review fallback.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "evidence_grounded_job_application_agent_evidence_6",
+        "source_id": "evidence_grounded_job_application_agent",
+        "source_type": "project",
+        "text": "Evidence-Grounded Job Application Agent. Added persistent SQLite checkpointing and resume support so interrupted LangGraph runs can continue from the last completed node without rerunning the full pipeline.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "university_llm_research_evidence_1",
+        "source_id": "university_llm_research",
+        "source_type": "research_experience",
+        "text": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs. Research university. Embedded Systems Lab. Built a candidate-validation pipeline covering structural validity, baseline-aware technical checks, behavioral differences, and security-semantic correctness.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "university_llm_research_evidence_2",
+        "source_id": "university_llm_research",
+        "source_type": "research_experience",
+        "text": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs. Research university. Embedded Systems Lab. Identified and rejected invalid, ineffective, and semantically inconsistent LLM-generated candidates.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "university_llm_research_evidence_4",
+        "source_id": "university_llm_research",
+        "source_type": "research_experience",
+        "text": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs. Research university. Embedded Systems Lab. Evaluated security-relevant hardware weakness scenarios including CWE-1243 and CWE-1302.",
+        "evidence_status": "verified"
+      },
+      {
+        "evidence_id": "industry_internship_summary",
+        "source_id": "industry_internship",
+        "source_type": "professional_experience",
+        "text": "Professional Experience — Software Company Internship. Software Company. Previous internship experience in a commercial software environment. Detailed technical responsibilities remain provisional and should not be treated as fully verified evidence.",
+        "evidence_status": "provisional"
+      },
+      {
+        "evidence_id": "industry_internship_evidence_0",
+        "source_id": "industry_internship",
+        "source_type": "professional_experience",
+        "text": "Professional Experience — Software Company Internship. Software Company. Legacy CV material describes functional testing of Java-based application workflows.",
+        "evidence_status": "provisional"
+      },
+      {
+        "evidence_id": "industry_internship_evidence_1",
+        "source_id": "industry_internship",
+        "source_type": "professional_experience",
+        "text": "Professional Experience — Software Company Internship. Software Company. Legacy CV material describes testing related to authentication and authorization behavior.",
+        "evidence_status": "provisional"
+      },
+      {
+        "evidence_id": "industry_internship_evidence_2",
+        "source_id": "industry_internship",
+        "source_type": "professional_experience",
+        "text": "Professional Experience — Software Company Internship. Software Company. Legacy CV material describes defect documentation, bug reproduction, and validation activities.",
+        "evidence_status": "provisional"
+      },
+      {
+        "evidence_id": "industry_internship_evidence_3",
+        "source_id": "industry_internship",
+        "source_type": "professional_experience",
+        "text": "Professional Experience — Software Company Internship. Software Company. Legacy CV material describes collaboration with developers on software-quality issues.",
+        "evidence_status": "provisional"
+      },
+      {
+        "evidence_id": "industry_internship_skills",
+        "source_id": "industry_internship",
+        "source_type": "professional_experience",
+        "text": "Professional Experience — Software Company Internship. Software Company. Skills: Software Testing, Functional Testing, Authentication, Authorization, Defect Documentation, Developer Collaboration",
+        "evidence_status": "provisional"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "profile",
+        "status": "SUPPORTED",
+        "reason": "The claim accurately reflects the cited evidence: the Research university research summary confirms supervised research on LLM-assisted hardware weakness injection; the job application agent evidence confirms implementation of hybrid retrieval using Qdrant, dense vector search, and Cross-Encoder reranking; and the evaluation evidence confirms retrieval quality metrics (Hit@1, nDCG@5, Recall@5) on a 24-query challenge set. No material factual assertion is unsupported.",
+        "section": "profile",
+        "source_id": null,
+        "bullet_index": null
+      },
+      {
+        "claim_id": "research_experience:university_llm_research:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "The claim that the candidate designed an LLM-assisted code-generation workflow and built a candidate-validation pipeline is directly supported by the cited verified evidence.",
+        "section": "research_experience",
+        "source_id": "university_llm_research",
+        "bullet_index": 0
+      },
+      {
+        "claim_id": "research_experience:university_llm_research:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "The evaluation of security-relevant hardware weakness scenarios and identification/rejection of invalid or semantically inconsistent candidates are supported by the cited verified evidence.",
+        "section": "research_experience",
+        "source_id": "university_llm_research",
+        "bullet_index": 1
+      },
+      {
+        "claim_id": "research_experience:university_llm_research:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "The use of systematic failure analysis and validation results to refine the generation workflow is directly supported by the cited verified evidence.",
+        "section": "research_experience",
+        "source_id": "university_llm_research",
+        "bullet_index": 2
+      },
+      {
+        "claim_id": "experience:industry_internship:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "Each material assertion in the claim (functional testing of Java-based workflows, authentication/authorization behavior testing, defect documentation and bug reproduction, collaboration with developers on software-quality issues) is directly described in the cited evidence items industry_internship_evidence_0 through industry_internship_evidence_3.",
+        "section": "experience",
+        "source_id": "industry_internship",
+        "bullet_index": 0
+      },
+      {
+        "claim_id": "experience:industry_internship:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "The claim's assertions (defect documentation, bug reproduction, validation, and collaboration with developers on software-quality issues) are directly supported by industry_internship_evidence_2 and industry_internship_evidence_3.",
+        "section": "experience",
+        "source_id": "industry_internship",
+        "bullet_index": 1
+      },
+      {
+        "claim_id": "selected_projects:evidence_grounded_job_application_agent:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "The claim exactly matches the wording of the verified evidence.",
+        "section": "selected_projects",
+        "source_id": "evidence_grounded_job_application_agent",
+        "bullet_index": 0
+      },
+      {
+        "claim_id": "selected_projects:evidence_grounded_job_application_agent:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "The claim is directly stated in the verified evidence.",
+        "section": "selected_projects",
+        "source_id": "evidence_grounded_job_application_agent",
+        "bullet_index": 1
+      },
+      {
+        "claim_id": "selected_projects:evidence_grounded_job_application_agent:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "The claim is verbatim supported by the verified evidence.",
+        "section": "selected_projects",
+        "source_id": "evidence_grounded_job_application_agent",
+        "bullet_index": 2
+      }
+    ],
+    "revisions": [
+      {
+        "round": 1,
+        "claim_id": "profile",
+        "before_text": "Junior technical contributor with supervised research experience in LLM‑assisted hardware weakness injection and hands‑on engineering experience building hybrid retrieval pipelines using Qdrant, dense retrieval, and Cross‑Encoder reranking, as documented in the Evidence‑Grounded Job Application Agent. Performed retrieval quality evaluation on a 24‑query challenge set, achieving validated Hit@1, nDCG@5, and Recall@5 metrics, as reported in evidence‑grounded job application agent evidence.",
+        "after_text": "Supervised research experience in LLM-assisted hardware weakness injection and hands-on engineering experience building hybrid retrieval pipelines using Qdrant, dense retrieval, and Cross-Encoder reranking, as documented in the Evidence-Grounded Job Application Agent. Performed retrieval quality evaluation on a 24-query challenge set, achieving validated Hit@1, nDCG@5, and Recall@5 metrics, as reported in evidence-grounded job application agent evidence.",
+        "before_validation": {
+          "status": "OVERSTATED",
+          "reason": "The claim includes the unsupported phrase \"Junior technical contributor\" which is not mentioned in any evidence; all other assertions are supported."
+        },
+        "after_validation": {
+          "status": "SUPPORTED",
+          "reason": "The claim accurately reflects the cited evidence: the Research university research summary confirms supervised research on LLM-assisted hardware weakness injection; the job application agent evidence confirms implementation of hybrid retrieval using Qdrant, dense vector search, and Cross-Encoder reranking; and the evaluation evidence confirms retrieval quality metrics (Hit@1, nDCG@5, Recall@5) on a 24-query challenge set. No material factual assertion is unsupported."
+        }
+      },
+      {
+        "round": 1,
+        "claim_id": "experience:industry_internship:bullet_1",
+        "before_text": "Performed functional testing of Java-based application workflows and authentication/authorization behavior, documented defects and reproduced bugs, and collaborated with developers to resolve software-quality issues.",
+        "after_text": "Performed functional testing of Java-based application workflows and authentication/authorization behavior, documented defects and reproduced bugs, and collaborated with developers on software-quality issues.",
+        "before_validation": {
+          "status": "OVERSTATED",
+          "reason": "The provisional evidence describes functional testing, authentication/authorization testing, defect documentation, bug reproduction, validation activities, and collaboration with developers on software-quality issues. It does not explicitly support that the candidate collaborated with developers to resolve issues."
+        },
+        "after_validation": {
+          "status": "SUPPORTED",
+          "reason": "Each material assertion in the claim (functional testing of Java-based workflows, authentication/authorization behavior testing, defect documentation and bug reproduction, collaboration with developers on software-quality issues) is directly described in the cited evidence items industry_internship_evidence_0 through industry_internship_evidence_3."
+        }
+      },
+      {
+        "round": 1,
+        "claim_id": "experience:industry_internship:bullet_2",
+        "before_text": "Documented defects, reproduced bugs, and validated software-quality fixes through collaborative development efforts.",
+        "after_text": "Documented defects and reproduced bugs, validated, and collaborated with developers on software-quality issues.",
+        "before_validation": {
+          "status": "OVERSTATED",
+          "reason": "The provisional evidence separately describes defect documentation, bug reproduction, validation activities, and collaboration with developers on software-quality issues. It does not explicitly support validating software-quality fixes through collaborative development efforts."
+        },
+        "after_validation": {
+          "status": "SUPPORTED",
+          "reason": "The claim's assertions (defect documentation, bug reproduction, validation, and collaboration with developers on software-quality issues) are directly supported by industry_internship_evidence_2 and industry_internship_evidence_3."
+        }
+      }
+    ],
+    "education": []
+  },
+  "cv": {
+    "profile": {
+      "text": "Supervised research experience in LLM-assisted hardware weakness injection and hands-on engineering experience building hybrid retrieval pipelines using Qdrant, dense retrieval, and Cross-Encoder reranking, as documented in the Evidence-Grounded Job Application Agent. Performed retrieval quality evaluation on a 24-query challenge set, achieving validated Hit@1, nDCG@5, and Recall@5 metrics, as reported in evidence-grounded job application agent evidence.",
+      "evidence_ids": [
+        "university_llm_research_summary",
+        "evidence_grounded_job_application_agent_evidence_0",
+        "evidence_grounded_job_application_agent_evidence_1"
+      ]
+    },
+    "skills": [
+      {
+        "category": "AI / ML",
+        "items": [
+          {
+            "name": "Large Language Models",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills",
+              "university_llm_research_skills"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Technical",
+        "items": [
+          {
+            "name": "Qdrant",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          },
+          {
+            "name": "Dense Retrieval",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          },
+          {
+            "name": "Reciprocal Rank Fusion",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          },
+          {
+            "name": "Cross-Encoder Reranking",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          },
+          {
+            "name": "Retrieval Evaluation",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          },
+          {
+            "name": "SQLite",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          },
+          {
+            "name": "LangGraph",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          },
+          {
+            "name": "BM25",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_skills"
+            ]
+          }
+        ]
+      }
+    ],
+    "research_experience": [
+      {
+        "source_id": "university_llm_research",
+        "title": "Research Project — LLM-Assisted Hardware Weakness Injection in RTL Designs",
+        "bullets": [
+          {
+            "text": "Designed an LLM-assisted code-generation workflow using structured weakness specifications and baseline RTL designs, and built a candidate-validation pipeline covering structural and security-semantic correctness.",
+            "evidence_ids": [
+              "university_llm_research_evidence_0",
+              "university_llm_research_evidence_1"
+            ]
+          },
+          {
+            "text": "Evaluated security-relevant hardware weakness scenarios including CWE-1243 and CWE-1302, and identified and rejected invalid or semantically inconsistent LLM-generated candidates.",
+            "evidence_ids": [
+              "university_llm_research_evidence_2",
+              "university_llm_research_evidence_4"
+            ]
+          },
+          {
+            "text": "Used systematic failure analysis and validation results to refine the LLM-assisted generation workflow for hardware weakness injection.",
+            "evidence_ids": [
+              "university_llm_research_evidence_3"
+            ]
+          }
+        ],
+        "organization": "Research university",
+        "unit": "Embedded Systems Lab"
+      }
+    ],
+    "experience": [
+      {
+        "source_id": "industry_internship",
+        "title": "Professional Experience — Software Company Internship",
+        "bullets": [
+          {
+            "text": "Performed functional testing of Java-based application workflows and authentication/authorization behavior, documented defects and reproduced bugs, and collaborated with developers on software-quality issues.",
+            "evidence_ids": [
+              "industry_internship_evidence_0",
+              "industry_internship_evidence_1",
+              "industry_internship_evidence_2",
+              "industry_internship_evidence_3"
+            ]
+          },
+          {
+            "text": "Documented defects and reproduced bugs, validated, and collaborated with developers on software-quality issues.",
+            "evidence_ids": [
+              "industry_internship_evidence_2",
+              "industry_internship_evidence_3"
+            ]
+          }
+        ],
+        "organization": ""
+      }
+    ],
+    "selected_projects": [
+      {
+        "source_id": "evidence_grounded_job_application_agent",
+        "title": "Evidence-Grounded Job Application Agent",
+        "bullets": [
+          {
+            "text": "Implemented hybrid retrieval over candidate evidence using BM25 and dense vector search with Qdrant, Reciprocal Rank Fusion, and Cross-Encoder reranking.",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_evidence_0"
+            ]
+          },
+          {
+            "text": "Evaluated retrieval on a 24-query challenge set; weighted RRF achieved Hit@1 of 0.667 and nDCG@5 of 0.813, and union retrieval with Cross-Encoder reranking reached Recall@5 of 0.958.",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_evidence_1"
+            ]
+          },
+          {
+            "text": "Implemented evidence-grounded CV generation with claim-level evidence IDs, followed by an Evidence Validator that flags supported, overstated, and unsupported claims.",
+            "evidence_ids": [
+              "evidence_grounded_job_application_agent_evidence_3"
+            ]
+          }
+        ]
+      }
+    ],
+    "job_title": "Applied AI Engineer, Retrieval"
+  },
+  "benchmark": {
+    "stage_a_completed": 5,
+    "stage_b_completed": 2,
+    "gold_requirements": 23,
+    "scored_requirements": 22,
+    "logical_calls": 39,
+    "interrupted_calls": 0,
+    "configured_model": "openrouter/free",
+    "accuracy": 0.76,
+    "roles": [
+      {
+        "role": "AI / ML Engineer",
+        "accuracy": 0.75,
+        "final_status": null
+      },
+      {
+        "role": "LLM / RAG / Applied AI",
+        "accuracy": 1.0,
+        "final_status": "grounded"
+      },
+      {
+        "role": "Backend Software Engineering",
+        "accuracy": 0.25,
+        "final_status": null
+      },
+      {
+        "role": "Data / Analytics Engineering",
+        "accuracy": 1.0,
+        "final_status": null
+      },
+      {
+        "role": "QA / Validation / Software Testing",
+        "accuracy": 0.8,
+        "final_status": "grounded"
+      }
+    ]
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "initial_cv": {
+    "profile": {
+      "text": "Synthetic wording 69a4e122",
+      "evidence_ids": [
+        "candidate_project_1_summary",
+        "candidate_project_1_evidence_0",
+        "candidate_project_2_summary",
+        "candidate_project_2_evidence_3",
+        "research_project_alpha_summary",
+        "research_project_alpha_evidence_3"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Synthetic wording e6aba2bd",
+        "items": [
+          {
+            "name": "Synthetic wording 18885f27",
+            "evidence_ids": [
+              "candidate_project_1_skills",
+              "candidate_project_2_skills",
+              "research_project_alpha_skills"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Synthetic wording 403eac6d",
+        "items": [
+          {
+            "name": "Synthetic wording 9316cd4d",
+            "evidence_ids": [
+              "candidate_project_2_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 0340bfb3",
+            "evidence_ids": [
+              "candidate_project_1_skills",
+              "research_project_alpha_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording c0f5e2c9",
+            "evidence_ids": [
+              "candidate_project_2_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 03312bee",
+            "evidence_ids": [
+              "candidate_project_2_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording be266816",
+            "evidence_ids": [
+              "research_project_alpha_skills"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Synthetic wording e851504f",
+        "items": [
+          {
+            "name": "Synthetic wording f77fb5fc",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 845bbc27",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 4b9cf6c8",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording ede82385",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording c89c4683",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 9aecf153",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          }
+        ]
+      }
+    ],
+    "research_experience": [
+      {
+        "source_id": "research_project_alpha",
+        "title": "Synthetic wording 76e1bf6c",
+        "bullets": [
+          {
+            "text": "Synthetic wording 60288625",
+            "evidence_ids": [
+              "research_project_alpha_evidence_0"
+            ]
+          },
+          {
+            "text": "Synthetic wording 31707067",
+            "evidence_ids": [
+              "research_project_alpha_evidence_1",
+              "research_project_alpha_evidence_3",
+              "research_project_alpha_evidence_4"
+            ]
+          },
+          {
+            "text": "Synthetic wording e1618087",
+            "evidence_ids": [
+              "research_project_alpha_skills"
+            ]
+          }
+        ],
+        "organization": "Synthetic wording abf8df29",
+        "unit": "Synthetic wording 2ed4bac4"
+      }
+    ],
+    "experience": [
+      {
+        "source_id": "candidate_experience_1",
+        "title": "Synthetic wording b5633727",
+        "bullets": [
+          {
+            "text": "Synthetic wording 2f6d7b19",
+            "evidence_ids": [
+              "candidate_experience_1_evidence_0",
+              "candidate_experience_1_evidence_1",
+              "candidate_experience_1_evidence_2",
+              "candidate_experience_1_evidence_3"
+            ]
+          },
+          {
+            "text": "Synthetic wording 32ff6492",
+            "evidence_ids": [
+              "candidate_experience_1_skills"
+            ]
+          }
+        ],
+        "organization": "Synthetic wording a44c1773"
+      }
+    ],
+    "selected_projects": [
+      {
+        "source_id": "candidate_project_1",
+        "title": "Synthetic wording 746d13ea",
+        "bullets": [
+          {
+            "text": "Synthetic wording 9c9dd0dd",
+            "evidence_ids": [
+              "candidate_project_1_evidence_0"
+            ]
+          },
+          {
+            "text": "Synthetic wording 45b3d4a3",
+            "evidence_ids": [
+              "candidate_project_1_evidence_1"
+            ]
+          },
+          {
+            "text": "Synthetic wording b7e4cba7",
+            "evidence_ids": [
+              "candidate_project_1_evidence_3",
+              "candidate_project_1_evidence_5"
+            ]
+          }
+        ]
+      },
+      {
+        "source_id": "candidate_project_2",
+        "title": "Synthetic wording 6b8ada28",
+        "bullets": [
+          {
+            "text": "Synthetic wording 74648798",
+            "evidence_ids": [
+              "candidate_project_2_summary",
+              "candidate_project_2_evidence_0"
+            ]
+          },
+          {
+            "text": "Synthetic wording ab712c94",
+            "evidence_ids": [
+              "candidate_project_2_evidence_1"
+            ]
+          },
+          {
+            "text": "Synthetic wording 82853bf8",
+            "evidence_ids": [
+              "candidate_project_2_evidence_2",
+              "candidate_project_2_evidence_3"
+            ]
+          }
+        ]
+      }
+    ],
+    "job_title": "Synthetic wording 512d93ce"
+  },
+  "expanded_sources": [
+    {
+      "source_id": "candidate_project_1",
+      "source_title": "Synthetic wording 746d13ea",
+      "entity_type": "project",
+      "strategy_reason": "Synthetic wording 6c211358",
+      "composition_role": "core",
+      "max_bullets": 3,
+      "max_words_per_bullet": 42,
+      "evidence_statuses": [
+        "verified"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "candidate_project_1_summary",
+          "type": "summary",
+          "evidence_status": "verified",
+          "text": "Synthetic wording e79b733b"
+        },
+        {
+          "evidence_id": "candidate_project_1_evidence_0",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording f7376bac"
+        },
+        {
+          "evidence_id": "candidate_project_1_evidence_1",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 75b0d397"
+        },
+        {
+          "evidence_id": "candidate_project_1_evidence_2",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 3d684929"
+        },
+        {
+          "evidence_id": "candidate_project_1_evidence_3",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 9efee9be"
+        },
+        {
+          "evidence_id": "candidate_project_1_evidence_4",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording d87a349e"
+        },
+        {
+          "evidence_id": "candidate_project_1_evidence_5",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 38965dd8"
+        },
+        {
+          "evidence_id": "candidate_project_1_evidence_6",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 8b763a2a"
+        },
+        {
+          "evidence_id": "candidate_project_1_skills",
+          "type": "skills",
+          "evidence_status": "verified",
+          "text": "Synthetic wording eadfcf58"
+        }
+      ]
+    },
+    {
+      "source_id": "candidate_project_2",
+      "source_title": "Synthetic wording 6b8ada28",
+      "entity_type": "project",
+      "strategy_reason": "Synthetic wording 6861b22e",
+      "composition_role": "core",
+      "max_bullets": 3,
+      "max_words_per_bullet": 42,
+      "evidence_statuses": [
+        "verified"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "candidate_project_2_summary",
+          "type": "summary",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 53c01dd1"
+        },
+        {
+          "evidence_id": "candidate_project_2_evidence_0",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 2c4ba6a6"
+        },
+        {
+          "evidence_id": "candidate_project_2_evidence_1",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 2d4c4023"
+        },
+        {
+          "evidence_id": "candidate_project_2_evidence_2",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 31e53f68"
+        },
+        {
+          "evidence_id": "candidate_project_2_evidence_3",
+          "type": "evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 9692df88"
+        },
+        {
+          "evidence_id": "candidate_project_2_skills",
+          "type": "skills",
+          "evidence_status": "verified",
+          "text": "Synthetic wording f0c8d7bf"
+        }
+      ]
+    },
+    {
+      "source_id": "research_project_alpha",
+      "source_title": "Synthetic wording 76e1bf6c",
+      "entity_type": "research_experience",
+      "strategy_reason": "Synthetic wording df3a887d",
+      "composition_role": "core",
+      "max_bullets": 3,
+      "max_words_per_bullet": 42,
+      "evidence_statuses": [
+        "verified"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "research_project_alpha_summary",
+          "type": "research_experience_summary",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 35598bd3"
+        },
+        {
+          "evidence_id": "research_project_alpha_evidence_0",
+          "type": "research_experience_evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording dc6c4e74"
+        },
+        {
+          "evidence_id": "research_project_alpha_evidence_1",
+          "type": "research_experience_evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording d276b79a"
+        },
+        {
+          "evidence_id": "research_project_alpha_evidence_2",
+          "type": "research_experience_evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 19b6ab5c"
+        },
+        {
+          "evidence_id": "research_project_alpha_evidence_3",
+          "type": "research_experience_evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 067629b1"
+        },
+        {
+          "evidence_id": "research_project_alpha_evidence_4",
+          "type": "research_experience_evidence",
+          "evidence_status": "verified",
+          "text": "Synthetic wording 65282ab3"
+        },
+        {
+          "evidence_id": "research_project_alpha_skills",
+          "type": "research_experience_skills",
+          "evidence_status": "verified",
+          "text": "Synthetic wording d68344ae"
+        }
+      ]
+    },
+    {
+      "source_id": "candidate_experience_1",
+      "source_title": "Synthetic wording b5633727",
+      "entity_type": "professional_experience",
+      "strategy_reason": "Synthetic wording d96425cc",
+      "composition_role": "supplemental_professional",
+      "max_bullets": 2,
+      "max_words_per_bullet": 36,
+      "evidence_statuses": [
+        "provisional"
+      ],
+      "evidence": [
+        {
+          "evidence_id": "candidate_experience_1_summary",
+          "type": "professional_experience_summary",
+          "evidence_status": "provisional",
+          "text": "Synthetic wording ad0d37df"
+        },
+        {
+          "evidence_id": "candidate_experience_1_evidence_0",
+          "type": "professional_experience_evidence",
+          "evidence_status": "provisional",
+          "text": "Synthetic wording a54afd6f"
+        },
+        {
+          "evidence_id": "candidate_experience_1_evidence_1",
+          "type": "professional_experience_evidence",
+          "evidence_status": "provisional",
+          "text": "Synthetic wording bd5d2aa8"
+        },
+        {
+          "evidence_id": "candidate_experience_1_evidence_2",
+          "type": "professional_experience_evidence",
+          "evidence_status": "provisional",
+          "text": "Synthetic wording 6b72e2bc"
+        },
+        {
+          "evidence_id": "candidate_experience_1_evidence_3",
+          "type": "professional_experience_evidence",
+          "evidence_status": "provisional",
+          "text": "Synthetic wording 9c3073f2"
+        },
+        {
+          "evidence_id": "candidate_experience_1_skills",
+          "type": "professional_experience_skills",
+          "evidence_status": "provisional",
+          "text": "Synthetic wording b22d201e"
+        }
+      ]
+    }
+  ],
+  "initial_validation": {
+    "results": [
+      {
+        "claim_id": "profile",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 4b749944",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "research_experience:research_project_alpha:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 77da5415",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "research_experience:research_project_alpha:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording d6269029",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "research_experience:research_project_alpha:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording f8fa20da",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "experience:candidate_experience_1:bullet_1",
+        "status": "UNSUPPORTED",
+        "reason": "Synthetic wording 80c3242e",
+        "unsupported_phrases": [
+          "Synthetic wording 2f6d7b19"
+        ]
+      },
+      {
+        "claim_id": "experience:candidate_experience_1:bullet_2",
+        "status": "UNSUPPORTED",
+        "reason": "Synthetic wording 4802b017",
+        "unsupported_phrases": [
+          "Synthetic wording 32ff6492"
+        ]
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_1:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 05469fce",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_1:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording b2baca7c",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_1:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 80c4b6c6",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_2:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording f8319bfc",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_2:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 98266dee",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_2:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording b1466b79",
+        "unsupported_phrases": []
+      }
+    ],
+    "summary": {
+      "SUPPORTED": 10,
+      "OVERSTATED": 0,
+      "UNSUPPORTED": 2,
+      "total": 12,
+      "grounded_rate": 0.8333333333333334,
+      "problem_rate": 0.16666666666666666
+    }
+  },
+  "final_cv": {
+    "profile": {
+      "text": "Synthetic wording 69a4e122",
+      "evidence_ids": [
+        "candidate_project_1_summary",
+        "candidate_project_1_evidence_0",
+        "candidate_project_2_summary",
+        "candidate_project_2_evidence_3",
+        "research_project_alpha_summary",
+        "research_project_alpha_evidence_3"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Synthetic wording e6aba2bd",
+        "items": [
+          {
+            "name": "Synthetic wording 18885f27",
+            "evidence_ids": [
+              "candidate_project_1_skills",
+              "candidate_project_2_skills",
+              "research_project_alpha_skills"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Synthetic wording 403eac6d",
+        "items": [
+          {
+            "name": "Synthetic wording 9316cd4d",
+            "evidence_ids": [
+              "candidate_project_2_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 0340bfb3",
+            "evidence_ids": [
+              "candidate_project_1_skills",
+              "research_project_alpha_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording c0f5e2c9",
+            "evidence_ids": [
+              "candidate_project_2_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 03312bee",
+            "evidence_ids": [
+              "candidate_project_2_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording be266816",
+            "evidence_ids": [
+              "research_project_alpha_skills"
+            ]
+          }
+        ]
+      },
+      {
+        "category": "Synthetic wording e851504f",
+        "items": [
+          {
+            "name": "Synthetic wording f77fb5fc",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 845bbc27",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 4b9cf6c8",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording ede82385",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording c89c4683",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          },
+          {
+            "name": "Synthetic wording 9aecf153",
+            "evidence_ids": [
+              "candidate_project_1_skills"
+            ]
+          }
+        ]
+      }
+    ],
+    "research_experience": [
+      {
+        "source_id": "research_project_alpha",
+        "title": "Synthetic wording 76e1bf6c",
+        "bullets": [
+          {
+            "text": "Synthetic wording 60288625",
+            "evidence_ids": [
+              "research_project_alpha_evidence_0"
+            ]
+          },
+          {
+            "text": "Synthetic wording 31707067",
+            "evidence_ids": [
+              "research_project_alpha_evidence_1",
+              "research_project_alpha_evidence_3",
+              "research_project_alpha_evidence_4"
+            ]
+          },
+          {
+            "text": "Synthetic wording e1618087",
+            "evidence_ids": [
+              "research_project_alpha_skills"
+            ]
+          }
+        ],
+        "organization": "Synthetic wording abf8df29",
+        "unit": "Synthetic wording 2ed4bac4"
+      }
+    ],
+    "experience": [
+      {
+        "source_id": "candidate_experience_1",
+        "title": "Synthetic wording b5633727",
+        "bullets": [
+          {
+            "text": "Synthetic wording 317e7694",
+            "evidence_ids": [
+              "candidate_experience_1_evidence_0",
+              "candidate_experience_1_evidence_1",
+              "candidate_experience_1_evidence_2",
+              "candidate_experience_1_evidence_3"
+            ]
+          },
+          {
+            "text": "Synthetic wording 9a61c3b4",
+            "evidence_ids": [
+              "candidate_experience_1_skills"
+            ]
+          }
+        ],
+        "organization": "Synthetic wording a44c1773"
+      }
+    ],
+    "selected_projects": [
+      {
+        "source_id": "candidate_project_1",
+        "title": "Synthetic wording 746d13ea",
+        "bullets": [
+          {
+            "text": "Synthetic wording 9c9dd0dd",
+            "evidence_ids": [
+              "candidate_project_1_evidence_0"
+            ]
+          },
+          {
+            "text": "Synthetic wording 45b3d4a3",
+            "evidence_ids": [
+              "candidate_project_1_evidence_1"
+            ]
+          },
+          {
+            "text": "Synthetic wording b7e4cba7",
+            "evidence_ids": [
+              "candidate_project_1_evidence_3",
+              "candidate_project_1_evidence_5"
+            ]
+          }
+        ]
+      },
+      {
+        "source_id": "candidate_project_2",
+        "title": "Synthetic wording 6b8ada28",
+        "bullets": [
+          {
+            "text": "Synthetic wording 74648798",
+            "evidence_ids": [
+              "candidate_project_2_summary",
+              "candidate_project_2_evidence_0"
+            ]
+          },
+          {
+            "text": "Synthetic wording ab712c94",
+            "evidence_ids": [
+              "candidate_project_2_evidence_1"
+            ]
+          },
+          {
+            "text": "Synthetic wording 82853bf8",
+            "evidence_ids": [
+              "candidate_project_2_evidence_2",
+              "candidate_project_2_evidence_3"
+            ]
+          }
+        ]
+      }
+    ],
+    "job_title": "Synthetic wording 512d93ce"
+  },
+  "final_validation": {
+    "results": [
+      {
+        "claim_id": "profile",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording c41459e4",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "research_experience:research_project_alpha:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 77da5415",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "research_experience:research_project_alpha:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording d6269029",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "research_experience:research_project_alpha:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 44b80d65",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "experience:candidate_experience_1:bullet_1",
+        "status": "UNSUPPORTED",
+        "reason": "Synthetic wording f0666d4c",
+        "unsupported_phrases": [
+          "Synthetic wording 317e7694"
+        ]
+      },
+      {
+        "claim_id": "experience:candidate_experience_1:bullet_2",
+        "status": "UNSUPPORTED",
+        "reason": "Synthetic wording b5520c9e",
+        "unsupported_phrases": [
+          "Synthetic wording 9a61c3b4"
+        ]
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_1:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 05469fce",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_1:bullet_2",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording b2baca7c",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_1:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 1faa56fe",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_2:bullet_1",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording f8319bfc",
+        "unsupported_phrases": []
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_2:bullet_2",
+        "status": "OVERSTATED",
+        "reason": "Synthetic wording 751fb847",
+        "unsupported_phrases": [
+          "Synthetic wording 14dbb4bb"
+        ]
+      },
+      {
+        "claim_id": "selected_projects:candidate_project_2:bullet_3",
+        "status": "SUPPORTED",
+        "reason": "Synthetic wording 98f2340b",
+        "unsupported_phrases": []
+      }
+    ],
+    "summary": {
+      "SUPPORTED": 9,
+      "OVERSTATED": 1,
+      "UNSUPPORTED": 2,
+      "total": 12,
+      "grounded_rate": 0.75,
+      "problem_rate": 0.25
+    }
+  }
+}
